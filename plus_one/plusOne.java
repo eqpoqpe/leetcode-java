@@ -21,9 +21,6 @@ class Solution {
       int template_length = template.size();
 
       for (int index = 0; index < template.size(); index++) {
-        // System.out.println(template.get(reversed(index, template_length)));
-        // result += template.get(reversed(index, template_length))
-
         result += template.get(reversed(index, template_length))*pown(index, 10);
       }
 
